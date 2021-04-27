@@ -24,7 +24,7 @@ int main(){
     float b = 0;
 
     int*  p_int = &a;
-    float* p_float = &b;
+    float* p_float = &b;//pas de modification
 
     std::cout<<"valeur de a : " << a << std::endl;
     std::cout<< "valeur de b : " << b << std::endl;
